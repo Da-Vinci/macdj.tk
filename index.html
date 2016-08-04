@@ -11,7 +11,61 @@
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#005895">
         <meta name="theme-color" content="#005895">
         <title>MacDJ</title>
-        <style>@import url(https://fonts.googleapis.com/css?family=Exo:100,300);.container,.links{left:50%;transform:translateX(-50%) translateY(-50%);text-align:center;position:absolute}a,body{color:#fff}.container,.footer,.links{position:absolute}body{background-color:#005895;font-family:Exo}h1{font-size:300%;margin-top:-1rem;font-weight:100}.container{top:45%}.logo{width:200px;display:inline}.links{top:70%}a{font-weight:300;font-size:120%;margin:.5em}.footer{bottom:0;left:4px;font-size:60%}.mobile.links>a{font-size:300%}.mobile.container>h1{font-size:500%}.mobile.container>img{width:300px}.footer.mobile{font-size:150%}</style>
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Exo:100,300);
+            body {
+                background-color: #005895;
+                color: #fff;
+                font-family: Exo;
+            }
+            h1 {
+                font-size: 300%;
+                margin-top: -1rem;
+                font-weight: 100;
+            }
+            .container {
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                text-align: center;
+            }
+            .logo {
+                width: 200px;
+                display: inline;
+            }
+            .links {
+                position: absolute;
+                top: 65%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                text-align: center;
+            }
+            a {
+                color: #fff;
+                font-weight: 300;
+                font-size: 120%;
+                margin: 0.5em;
+            }
+            .footer {
+                position: absolute;
+                bottom: 0px;
+                left: 4px;
+                font-size: 60%;
+            }
+            .mobile.links > a{
+                font-size: 300%;
+            }
+            .mobile.container > h1 {
+                font-size: 500%;
+            }
+            .mobile.container > img {
+                width: 300px;
+            }
+            .footer.mobile {
+                font-size: 150%;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
@@ -21,6 +75,7 @@
             <a href="http://github.com/bots-js/discord-macdj/releases">Download</a><a href="http://github.com/bots-js/discord-macdj/wiki">Help</a>
         </div>
         <div class="footer">Copyright &copy; 2016 The DaVinci Team</div>
+        <script>/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)&&(document.getElementsByClassName("links")[0].className+=" mobile",document.getElementsByClassName("container")[0].className+=" mobile",document.getElementsByClassName("footer")[0].className+=" mobile");</script>
         <script src="https://guscaplan.me/nojoke.js"></script>
     </body>
 </html>
